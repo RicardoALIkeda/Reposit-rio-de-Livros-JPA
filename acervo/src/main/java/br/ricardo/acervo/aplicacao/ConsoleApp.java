@@ -66,7 +66,7 @@ public class ConsoleApp {
         String autor = scanner.nextLine();
         System.out.print("Digite o ano de publicação: ");
         int ano = scanner.nextInt();
-        scanner.nextLine(); // Consumir a nova linha
+        scanner.nextLine(); 
         System.out.print("Digite a editora: ");
         String editora = scanner.nextLine();
         if (livroRepository.existsByTituloAndAutor(titulo, autor)){

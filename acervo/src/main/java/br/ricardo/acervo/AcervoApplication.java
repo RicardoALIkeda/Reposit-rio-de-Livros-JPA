@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AcervoApplication implements CommandLineRunner {
 
     @Autowired
-    private ConsoleApp consoleApp; // Injeta a dependência gerenciada pelo Spring
+    private ConsoleApp consoleApp; 
 
     public static void main(String[] args) {
         SpringApplication.run(AcervoApplication.class, args);
