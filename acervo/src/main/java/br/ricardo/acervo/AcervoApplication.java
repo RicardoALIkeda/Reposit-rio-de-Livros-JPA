@@ -1,6 +1,6 @@
-package ricardo.acervo;
+package br.ricardo.acervo;
 
-import br.seu_nome.acervo.aplicacao.ConsoleApp;
+import br.ricardo.acervo.aplicacao.ConsoleApp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -12,7 +12,7 @@ public class AcervoApplication implements CommandLineRunner {
  }
  @Override
  public void run(String... args) {
- ConsoleApp consoleApp;
+ ConsoleApp consoleApp = new ConsoleApp();
  consoleApp.iniciar();
  }
 }
