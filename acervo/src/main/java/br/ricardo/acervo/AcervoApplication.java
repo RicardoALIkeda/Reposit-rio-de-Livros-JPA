@@ -1,13 +1,13 @@
-package com.example.demo;
+package ricardo.acervo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class AcervoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(AcervoApplication.class, args);
 	}
 
 }
